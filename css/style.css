@@ -1,0 +1,96 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.body{
+    background-color: #dedee0;
+    padding-left: 5%;
+}
+img{
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.bnm{
+    margin-bottom: 0px!important;
+}
+#home,
+#portfolio,
+#contact{
+    height: 100vh;
+    padding-left: 15px;
+}
+
+#map{
+    height: 500px;
+    width: 100%;
+}
+header{
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 5%;
+}
+.menu li{
+    font-size: 34px;
+}
+.menu li a{
+    color: #ba1401;
+}
+.btp{
+    padding-top: 300px;
+}
+.stp{
+    padding-top: 35px;
+}
+.mw{
+    max-width: 75px;
+}
+@keyframes rubberBand {
+  0% {transform: scale(1);}
+  30% {transform: scaleX(1.25) scaleY(0.75);}
+  40% {transform: scaleX(0.75) scaleY(1.25);}
+  60% {transform: scaleX(1.15) scaleY(0.85);}
+  100% {transform: scale(1);}
+}
+.rubberBand{
+    display: inline-block;
+    font-size: 58px;
+    cursor: default;
+    color: #000;
+}
+.rubberBand:hover {
+  animation-name: rubberBand;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  color: #ba1401;
+}
+
+
+
+
+
+
+/* FORM CONTACT */
+.form-contact input,
+.form-contact textarea{
+    border-bottom: 2px solid #961313!important;
+    border-left: 2px solid #961313!important;
+    border-top: 2px solid transparent!important;
+    border-right: 2px solid transparent!important;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.form-contact input:focus,
+.form-contact textarea:focus{
+    border: 2px solid #961313!important;
+}
+
+/* BUTTON HOVER*/
+.hvr-shutter-in-vertical{
+    color: #961313;
+    border-radius: 0px;
+}

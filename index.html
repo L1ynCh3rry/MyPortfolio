@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Test project for my portfolio">
+        <meta name="keywords" content="WEB Developer,Luka Cosic,HTML,CSS,JavaScript,Wordpress">
+        <meta name="author" content="Luka Cosic">
+        <title>Portfolio</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+
+
+        <!-- CSS -->
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="css/hover-min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxJsg9CTxmg09QVhjj5sem29le9tPtdhk&callback=initMap"></script>
+
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 6,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(44.431963, 20.877769), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType": "all", "elementType": "labels.text.fill", "stylers": [{"saturation": 36}, {"color": "#000000"}, {"lightness": 40}]}, {"featureType": "all", "elementType": "labels.text.stroke", "stylers": [{"visibility": "on"}, {"color": "#000000"}, {"lightness": 16}]}, {"featureType": "all", "elementType": "labels.icon", "stylers": [{"visibility": "off"}]}, {"featureType": "administrative", "elementType": "geometry.fill", "stylers": [{"color": "#000000"}, {"lightness": 20}]}, {"featureType": "administrative", "elementType": "geometry.stroke", "stylers": [{"color": "#ba1401"}, {"lightness": 17}, {"weight": 1.2}]}, {"featureType": "landscape", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 20}]}, {"featureType": "poi", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 21}]}, {"featureType": "road.highway", "elementType": "geometry.fill", "stylers": [{"color": "#000000"}, {"lightness": 17}]}, {"featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [{"color": "#000000"}, {"lightness": 29}, {"weight": 0.2}]}, {"featureType": "road.arterial", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 18}]}, {"featureType": "road.local", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 16}]}, {"featureType": "transit", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 19}]}, {"featureType": "water", "elementType": "geometry", "stylers": [{"color": "#000000"}, {"lightness": 17}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(44.431963, 20.877769),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="menu">
+                <ul class="list-unstyled text-center">
+                    <li style="padding-top: 10px;"><a href="#home">
+                            <img src="img/logo.png" class="mw" alt=""/>
+                        </a></li>
+                    <li class="btp"><a href="#home"><span class="far fa-user"></span></a></li>
+                    <li class="stp"><a href="#portfolio"><span class="fas fa-eye"></span></a></li>
+                    <li class="stp"><a href="#contact"><span class="far fa-envelope"></span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="body">
+
+                <div id="home"> <!-- HOME START -->
+
+                    <div class="blast-root">
+                        <p class="rubberBand bnm">H</p><p class="rubberBand bnm">e</p><p class="rubberBand bnm">l</p><p class="rubberBand bnm">l</p><p class="rubberBand bnm">o</p><p class="rubberBand bnm">,</p><br>
+
+                        <p class="rubberBand bnm">M</p><p class="rubberBand bnm">y</p>
+
+                        <p class="rubberBand bnm">n</p><p class="rubberBand bnm">a</p><p class="rubberBand bnm">m</p><p class="rubberBand bnm">e</p>
+
+                        <p class="rubberBand bnm">i</p><p class="rubberBand bnm">s</p><br>
+
+                        <p class="rubberBand bnm">L</p><p class="rubberBand bnm">u</p><p class="rubberBand bnm">k</p><p class="rubberBand bnm">a</p>
+
+                        <p class="rubberBand bnm">C</p><p class="rubberBand bnm">o</p><p class="rubberBand bnm">s</p><p class="rubberBand bnm">i</p><p class="rubberBand bnm">c</p>
+                    </div>
+
+
+                </div> <!-- HOME ENDS -->
+
+                <div id="portfolio"> <!-- PORTFOLIO START -->
+                </div> <!-- PORTFOLIO ENDS -->
+
+                <div id="contact"> <!-- CONTACT START -->
+                    <div class="row">
+                        <div class="col-12 col-lg-5">
+
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <div id="map"></div>
+                        </div>
+                    </div>
+                </div> <!-- CONTACT ENDS -->
+            </section>
+        </main>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+
+</html>
